@@ -1,0 +1,253 @@
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  clear: both;
+  display: block;
+}
+
+img.movel {
+  width: auto;
+  min-width: 660px;
+  object-fit: contain;
+}
+
+@media only screen and (min-width: 768px) {
+  .movel {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .movel {
+    display: block;
+  }
+}
+
+img.logo-vivo-go {
+  height: 2.4rem !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.2rem;
+  margin-top: 1.2rem;
+}
+
+img.logo-sun {
+  height: 2.4rem !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.2rem;
+  margin-top: 1.2rem;
+}
+
+.gif-img-1 {
+  float: right;
+  display: block;
+  width: 17rem;
+  border: 1px solid #bdbdbd;
+}
+
+.gif-img-center {
+  width: 34rem;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #bdbdbd;
+}
+
+.img-enviar {
+  width: 20rem;
+  display: block;
+  border: 1px solid #bdbdbd;
+}
+
+table.container.inicio-instalacao {
+  position: relative;
+  text-align: right;
+  /*background-image: url('http://images.before.com.br/instalacao.png');*/
+  background-image: url('https://i.imgur.com/LbcqrgJ.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*background-size: auto 224px;*/
+  width: 100% !important;
+  height: 224px !important;
+  margin: 0 !important;
+}
+
+table.container.inicio-formulario {
+  position: relative;
+  text-align: right;
+  /*background-image: url('http://images.before.com.br/formulario-solicitacao.png');*/
+  background-image: url('https://i.imgur.com/wG384D5.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*background-size: cover;*/
+  width: 100% !important;
+  height: 224px !important;
+  margin: 0 !important;
+}
+
+table.container.inicio-emissao {
+  position: relative;
+  text-align: right;
+  /*background-image: url('http://images.before.com.br/vivogo/emissaonota.png');*/
+  background-image: url('https://i.imgur.com/9NEUi2V.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*background-size: cover;*/
+  width: 100% !important;
+  height: 224px !important;
+  margin: 0 !important;
+}
+
+table.container.solicitacao-aberto {
+  position: relative;
+  text-align: right;
+  /*background-image: url('http://images.before.com.br/solicitacaoaberto1.png');*/
+  background-image: url('https://i.imgur.com/lWvrWrF.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*background-size: cover;*/
+  width: 100% !important;
+  height: 224px !important;
+  margin: 0 !important;
+}
+
+table.container.solicitacao-aberto-sun {
+  position: relative;
+  text-align: right;
+  background-image: url('https://i.imgur.com/1ioIgax.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*background-size: cover;*/
+  width: 100% !important;
+  height: 224px !important;
+  margin: 0 !important;
+}
+
+//etapas solicitação
+table.container.etapa-analise {
+  position: relative;
+  text-align: right;
+  background-image: url('https://i.imgur.com/45BV0Cr.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+table.container.etapa-desenvolvimento {
+  position: relative;
+  text-align: right;
+  background-image: url('https://i.imgur.com/xNrRi4D.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+table.container.etapa-apvdev {
+  position: relative;
+  text-align: right;
+  background-image: url('https://i.imgur.com/MU2trOR.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+table.container.etapa-recusada {
+  position: relative;
+  text-align: right;
+  background-image: url('https://i.imgur.com/b0lvfan.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+table.container.etapa-publicacao {
+  position: relative;
+  text-align: right;
+  background-image: url('https://i.imgur.com/xOtlJRS.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+//ícones
+.fa {
+  color: $primary-color;
+  width: 2rem; // makes the width of icon labels equal
+  position: absolute;
+  transform: translateX(-50%);
+  margin-top: 0.4rem;
+}
+
+.fa-download {
+  position: relative !important;
+  transform: translateX(-30%);
+  color: $white;
+  margin-right: 0.4rem;
+  width: 1rem; // makes the width of icon labels equal }
+}
+
+.fa-book {
+  position: relative !important;
+  transform: translateX(-30%);
+  color: $white;
+  margin-right: 0.4rem;
+  width: 1rem; // makes the width of icon labels equal }
+}
+
+.aviso {
+  color: $primary-color;
+  font-size: 100px; // makes the width of icon labels equal
+  position: absolute;
+  transform: translateX(2%);
+}
+
+table.container.icn-download {
+  color: #ffffff;
+  background-image: url('https://i.imgur.com/y3T65wX.png');
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+table.container.icn-manual {
+  color: #ffffff;
+  /*background-image: url('https://i.imgur.com/BqCXEGR.png');*/
+  position: relative;
+  height: 1rem;
+  width: 100%;
+  /*margin: 0.5rem;*/
+}
+
+table.container .icn-atencao {
+  height: 12% !important;
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  /*background-image: url('https://i.imgur.com/lCKjZFr.png');*/
+  background-image: url('https://i.imgur.com/j73Uaj4.png');
+}

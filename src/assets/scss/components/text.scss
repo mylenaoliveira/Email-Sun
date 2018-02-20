@@ -1,0 +1,198 @@
+p {
+  margin-bottom: 5px !important;
+  font-family: $body-font-family;
+  font-size: $global-font-size;
+  color: #333333;
+}
+
+.titulo {
+  font-size: $h3-font-size;
+  font-weight: bold;
+  color: $white;
+  position: relative;
+  text-transform: uppercase;
+  font-family: $title-font-family;
+  top: 50%;
+  left: 2rem;
+  margin: 0 !important;
+  transform: translateY(38%);
+  line-height: 130%;
+}
+
+.vivo {
+  font-size: $h6-font-size;
+  font-weight: bold;
+  color: #660099;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-family: $title-font-family;
+}
+
+.rodape {
+  font-size: 12px;
+  color: #777777;
+  margin: 0 !important;
+  width: 34rem;
+  font-family: $body-font-family;
+}
+
+.titulo-nome {
+  font-size: $h5-font-size;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+  font-family: $body-font-family;
+}
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+  p.titulo-grande {
+    top: 150px !important;
+    left: 30px !important;
+    font-size: 40px !important;
+  }
+}
+
+.link-atendimento {
+  margin-top: 0.9rem;
+}
+
+.final {
+  font-size: 16px;
+  margin-top: 0.9rem;
+  font-family: $body-font-family;
+}
+
+.destaque {
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  font-family: $body-font-family;
+}
+
+.corpo-texto {
+  font-size: 18px;
+  color: #333333;
+  font-family: $body-font-family;
+}
+
+.atencao {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-right: 6rem;
+  margin-left: 7rem;
+  font-family: $title-font-family;
+}
+
+.chamada-texto {
+  font-size: 20px;
+  color: #333333;
+  font-family: $body-font-family;
+}
+
+.chamada-texto-nf {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 35px !important;
+  font-family: $body-font-family;
+}
+
+.titulo-container {
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #333333;
+  font-family: $body-font-family;
+}
+
+//legenda nfe
+#texto-container-1 {
+  width: 93%;
+  font-size: 18px;
+  color: #333333;
+  float: left;
+}
+
+#texto-container-2 {
+  font-size: 18px !important;
+  color: #333333;
+  float: right;
+  margin-left: 3rem;
+}
+
+#texto-container-3 {
+  width: 84%;
+  font-size: 18px;
+  color: #333333;
+  float: left;
+}
+
+#texto-container-4 {
+  width: 84%;
+  font-size: 18px;
+  color: #333333;
+  float: left;
+}
+
+#texto-container-5 {
+  width: 91%;
+  font-size: 18px;
+  color: #333333;
+  float: left;
+}
+
+#texto-container-6 {
+  width: 96%;
+  font-size: 18px;
+  color: #333333;
+  float: left;
+}
+
+#texto-container-7 {
+  width: 100%;
+  font-size: 18px;
+  color: #333333;
+  float: left;
+}
+
+.titulo-status {
+  font-family: $title-font-family;
+  font-weight: bold;
+  line-height: 130% !important;
+  text-transform: uppercase;
+  font-size: $h6-font-size;
+  color: $primary-color;
+}
+
+#before-p {
+  margin-bottom: 0.9rem !important;
+}
+
+#after-p {
+  margin-bottom: 2.2rem !important;
+}
+
+#before-final {
+  margin-bottom: 2.2rem !important;
+}
+
+#caminho-nfc {
+  color: $primary-color;
+}
+
+#emissao {
+  left: 26%;
+}
+
+#solicitacao {
+  margin-top: 1.6rem;
+}
+
+#solicitacao-titulo {
+  left: 32%;
+}
+
+#reinstalacao {
+  left: 36%;
+}

@@ -1,0 +1,110 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+//callout
+.callout {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+  border-collapse: separate;
+}
+
+th.callout-inner {
+  padding: 0 !important;
+  width: 600px !important;
+}
+
+table.container {
+  width: 538px;
+}
+
+//columns
+th.large-6.first th.large-6 th.columns {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.large-6 {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.small-6 {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.large-12 {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.small-12 {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.small-12 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+th {
+  vertical-align: middle;
+}

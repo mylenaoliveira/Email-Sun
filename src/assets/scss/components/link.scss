@@ -1,0 +1,87 @@
+
+a {
+  color: #2199e8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2199e8;
+}
+
+a:active {
+  color: #2199e8;
+}
+
+a:visited {
+  color: #2199e8;
+}
+
+a img {
+  border: none;
+}
+
+a {
+  color: #0a0a0a;
+  font-family: $body-font-family;
+  font-weight: $global-font-weight;
+  text-align: left;
+  line-height: $global-line-height;
+}
+
+a.detalhe {
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3871e0;
+  margin-right: 3.5rem;
+  margin-bottom: 0.4rem;
+  text-align: right !important;
+  font-family: $body-font-family;
+}
+
+a.acesso {
+  background: #660099;
+  font-weight: 300;
+  color: white;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  border-radius: $global-radius !important;
+  text-transform: uppercase;
+  /*margin-bottom: 35px !important;*/
+  margin-left: 9rem !important;
+  /*margin-right: 150px !important;*/
+}
+
+a.acesso-doc {
+  background: #660099;
+  font-weight: 300;
+  color: $white;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  border-radius: $global-radius !important;
+  text-transform: uppercase;
+  /*margin-bottom: 35px !important;*/
+  /*margin-top: 35px !important;*/
+  margin-left: 9rem !important;
+  /*margin-right: 150px !important;*/
+}
+
+a.acesso-manual {
+  background: #660099;
+  font-weight: 300;
+  color: $white;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  border-radius: $global-radius !important;
+  text-transform: uppercase;
+  /*margin-bottom: 35px !important;*/
+  /*margin-top: 35px !important;*/
+  margin-left: 9rem !important;
+  /*margin-right: 150px !important;*/
+}
+
+a.atendimento {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3871E0;
+  margin-bottom: 1.5rem !important;
+}
