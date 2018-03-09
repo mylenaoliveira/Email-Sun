@@ -19,6 +19,20 @@ p {
   line-height: 130%;
 }
 
+.titulo-migracao {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: $white;
+  position: relative;
+  text-transform: none;
+  font-family: $title-font-family;
+  top: 50%;
+  left: 2rem;
+  margin: 0 15rem 0 0 !important;
+  transform: translateY(18%);
+  line-height: 130%;
+}
+
 .vivo {
   font-size: $h6-font-size;
   font-weight: bold;
@@ -43,6 +57,22 @@ p {
   margin-bottom: 1.5rem !important;
   margin-top: 1.5rem !important;
   font-family: $body-font-family;
+}
+
+.titulo-plano {
+  font-size: $h5-font-size;
+  color: #333333;
+  font-weight: bold;
+  //margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+  font-family: $body-font-family;
+}
+
+.beneficios-plus {
+  font-family: $body-font-family;
+  font-size: 22px;
+  font-weight: bold;
+  color: $primary-color;
 }
 
 @media only screen and (max-width: #{$global-breakpoint}) {
@@ -104,6 +134,15 @@ p {
   text-transform: uppercase;
   color: #333333;
   font-family: $body-font-family;
+}
+
+//lista
+.lista-beneficios {
+  color: $gray;
+}
+
+ul {
+  list-style: none
 }
 
 //legenda nfe

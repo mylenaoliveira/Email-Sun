@@ -113,14 +113,8 @@ th.large-4 {
   padding-left: 8px;
   padding-right: 8px; }
 
-th.large-4.first {
-  padding-left: 16px; }
-
 th.large-4.last {
   padding-right: 16px; }
-
-th.large-4 center {
-  min-width: 152px; }
 
 th.large-5 {
   width: 234px;
@@ -178,9 +172,6 @@ th.large-8 {
 th.large-8.first {
   padding-left: 16px; }
 
-th.large-8.last {
-  padding-right: 16px; }
-
 th.large-12 {
   width: 584px;
   padding-left: 8px;
@@ -212,9 +203,7 @@ th.expander {
 
 table.text-center,
 h1.text-center,
-h3.text-center,
 h4.text-center,
-h5.text-center,
 p.text-center {
   text-align: center; }
 
@@ -526,6 +515,19 @@ p {
   transform: translateY(38%);
   line-height: 130%; }
 
+.titulo-migracao {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #ffffff;
+  position: relative;
+  text-transform: none;
+  font-family: Lato, Verdana, Arial, sans-serif;
+  top: 50%;
+  left: 2rem;
+  margin: 0 15rem 0 0 !important;
+  transform: translateY(18%);
+  line-height: 130%; }
+
 .vivo {
   font-size: 30px;
   font-weight: bold;
@@ -548,6 +550,19 @@ p {
   margin-bottom: 1.5rem !important;
   margin-top: 1.5rem !important;
   font-family: Open Sans, Lato, Verdana, Arial, sans-serif; }
+
+.titulo-plano {
+  font-size: 35px;
+  color: #333333;
+  font-weight: bold;
+  margin-top: 1.5rem !important;
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif; }
+
+.beneficios-plus {
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #660099; }
 
 @media only screen and (max-width: 616px) {
   p.titulo-grande {
@@ -599,6 +614,12 @@ p {
   text-transform: uppercase;
   color: #333333;
   font-family: Open Sans, Lato, Verdana, Arial, sans-serif; }
+
+.lista-beneficios {
+  color: #333333; }
+
+ul {
+  list-style: none; }
 
 #texto-container-1 {
   width: 93%;
@@ -720,7 +741,6 @@ img.logo-sun {
 table.container.inicio-instalacao {
   position: relative;
   text-align: right;
-  /*background-image: url('http://images.before.com.br/instalacao.png');*/
   background-image: url("https://i.imgur.com/LbcqrgJ.png");
   background-repeat: no-repeat;
   background-position: top center;
@@ -732,11 +752,9 @@ table.container.inicio-instalacao {
 table.container.inicio-formulario {
   position: relative;
   text-align: right;
-  /*background-image: url('http://images.before.com.br/formulario-solicitacao.png');*/
   background-image: url("https://i.imgur.com/wG384D5.png");
   background-repeat: no-repeat;
   background-position: top center;
-  /*background-size: cover;*/
   width: 100% !important;
   height: 224px !important;
   margin: 0 !important; }
@@ -744,11 +762,19 @@ table.container.inicio-formulario {
 table.container.inicio-emissao {
   position: relative;
   text-align: right;
-  /*background-image: url('http://images.before.com.br/vivogo/emissaonota.png');*/
   background-image: url("https://i.imgur.com/9NEUi2V.png");
   background-repeat: no-repeat;
   background-position: top center;
-  /*background-size: cover;*/
+  width: 100% !important;
+  height: 224px !important;
+  margin: 0 !important; }
+
+table.container.inicio-migracao {
+  position: relative;
+  text-align: right;
+  background-image: url("https://i.imgur.com/e7M7xuo.png");
+  background-repeat: no-repeat;
+  background-position: top center;
   width: 100% !important;
   height: 224px !important;
   margin: 0 !important; }
@@ -759,6 +785,7 @@ table.container.solicitacao-aberto-sun {
   background-image: url("https://i.imgur.com/1ioIgax.png");
   background-repeat: no-repeat;
   background-position: top center;
+  border-radius: 10px 10px 0 0 !important;
   /*background-size: cover;*/
   width: 100% !important;
   height: 224px !important;
@@ -824,13 +851,21 @@ table.container.etapa-publicacao {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem; }
 
+table.container .mais-beneficios {
+  height: 12% !important;
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin: 2rem 0 2rem 0;
+  background-image: url("https://i.imgur.com/wKBcqj4.png"); }
+
 table.container .icn-atencao {
   height: 12% !important;
   width: 100%;
   display: block;
   position: absolute;
   background-repeat: no-repeat;
-  /*background-image: url('https://i.imgur.com/lCKjZFr.png');*/
   background-image: url("https://i.imgur.com/j73Uaj4.png"); }
 
 .conteudo {
@@ -853,6 +888,10 @@ table.container .icn-atencao {
 
 .conteudo-container-red {
   margin-bottom: 2rem !important; }
+
+.conteudo-container-red-btn {
+  margin-bottom: 2rem !important;
+  margin-top: 2rem !important; }
 
 .conteudo-container-red-up {
   margin-top: 2.5rem !important; }
@@ -906,9 +945,7 @@ a.acesso {
   padding: 0.6rem 1.2rem 0.6rem 1.2rem;
   border-radius: 10px !important;
   text-transform: uppercase;
-  /*margin-bottom: 35px !important;*/
-  margin-left: 9rem !important;
-  /*margin-right: 150px !important;*/ }
+  margin-left: 9rem !important; }
 
 a.acesso-doc {
   background: #660099;
@@ -917,10 +954,7 @@ a.acesso-doc {
   padding: 0.6rem 1.2rem 0.6rem 1.2rem;
   border-radius: 10px !important;
   text-transform: uppercase;
-  /*margin-bottom: 35px !important;*/
-  /*margin-top: 35px !important;*/
-  margin-left: 9rem !important;
-  /*margin-right: 150px !important;*/ }
+  margin-left: 9rem !important; }
 
 a.acesso-manual {
   background: #660099;
@@ -929,10 +963,17 @@ a.acesso-manual {
   padding: 0.6rem 1.2rem 0.6rem 1.2rem;
   border-radius: 10px !important;
   text-transform: uppercase;
-  /*margin-bottom: 35px !important;*/
-  /*margin-top: 35px !important;*/
-  margin-left: 9rem !important;
-  /*margin-right: 150px !important;*/ }
+  margin-left: 9rem !important; }
+
+table.container a.troca-plano-flat {
+  background: transparent;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  border-radius: 10px !important;
+  border: 2px solid #ffffff;
+  text-transform: none;
+  width: 5rem; }
 
 a.atendimento {
   cursor: pointer;
@@ -945,6 +986,19 @@ a.atendimento {
   margin-top: 0;
   margin-bottom: 0.4rem; }
 
+li::before {
+  content: "•";
+  width: 1rem;
+  display: inline-block;
+  color: #BB69E4; }
+
+/*ul li {
+  color: #BB69E4;
+}*/
+/*li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}*/
 /*etapa 1 análise*/
 
 /*etapa 2 desenvolvimento*/
