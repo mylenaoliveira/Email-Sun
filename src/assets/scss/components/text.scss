@@ -48,22 +48,22 @@ p {
   margin: 0 !important;
   width: 34rem;
   font-family: $body-font-family;
+  text-decoration: none;
+  line-height: 100%;
 }
 
 .titulo-nome {
   font-size: $h5-font-size;
   color: #333333;
   font-weight: bold;
-  margin-bottom: 1.5rem !important;
   margin-top: 1.5rem !important;
-  font-family: $body-font-family;
+  font-family: $title-font-family;
 }
 
 .titulo-plano {
   font-size: $h5-font-size;
   color: #333333;
   font-weight: bold;
-  //margin-bottom: 1.5rem !important;
   margin-top: 1.5rem !important;
   font-family: $body-font-family;
 }
