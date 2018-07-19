@@ -79,7 +79,6 @@ table.container.inicio-instalacao {
   background-image: url('https://i.imgur.com/LbcqrgJ.png');
   background-repeat: no-repeat;
   background-position: top center;
-  /*background-size: auto 224px;*/
   width: 100% !important;
   height: 224px !important;
   margin: 0 !important;
@@ -146,7 +145,6 @@ table.container.solicitacao-aberto-sun {
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px 10px 0 0 !important;
-  /*background-size: cover;*/
   width: 100% !important;
   height: 224px !important;
   margin: 0 !important;
@@ -159,7 +157,7 @@ table.container.confirmacao-email {
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px 10px 0 0 !important;
-  /*background-size: cover;*/
+
   width: 100% !important;
   height: 224px !important;
   margin: 0 !important;
@@ -169,7 +167,7 @@ table.container.confirmacao-email {
 table.container.etapa-analise {
   position: relative;
   text-align: right;
-  background-image: url('https://i.imgur.com/45BV0Cr.png');
+  background-image: url('https://i.imgur.com/HRli7jk.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -182,7 +180,7 @@ table.container.etapa-analise {
 table.container.etapa-desenvolvimento {
   position: relative;
   text-align: right;
-  background-image: url('https://i.imgur.com/xNrRi4D.png');
+  background-image: url('https://i.imgur.com/2s694Ov.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -195,7 +193,7 @@ table.container.etapa-desenvolvimento {
 table.container.etapa-apvdev {
   position: relative;
   text-align: right;
-  background-image: url('https://i.imgur.com/MU2trOR.png');
+  background-image: url('https://i.imgur.com/3oDbEZv.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -205,23 +203,11 @@ table.container.etapa-apvdev {
   margin-bottom: 3.5rem;
 }
 
-table.container.etapa-recusada {
-  position: relative;
-  text-align: right;
-  background-image: url('https://i.imgur.com/b0lvfan.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 86% !important;
-  height: 3.47em;
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
-}
 
 table.container.etapa-publicacao {
   position: relative;
   text-align: right;
-  background-image: url('https://i.imgur.com/xOtlJRS.png');
+  background-image: url('https://i.imgur.com/vgyet1T.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -234,7 +220,7 @@ table.container.etapa-publicacao {
 //ícones
 .fa {
   color: $primary-color;
-  width: 2rem; // makes the width of icon labels equal
+  width: 2rem;
   position: absolute;
   transform: translateX(-50%);
   margin-top: 0.4rem;
@@ -245,7 +231,7 @@ table.container.etapa-publicacao {
   transform: translateX(-30%);
   color: $white;
   margin-right: 0.4rem;
-  width: 1rem; // makes the width of icon labels equal }
+  width: 1rem;
 }
 
 .fa-book {
@@ -253,12 +239,12 @@ table.container.etapa-publicacao {
   transform: translateX(-30%);
   color: $white;
   margin-right: 0.4rem;
-  width: 1rem; // makes the width of icon labels equal }
+  width: 1rem;
 }
 
 .aviso {
   color: $primary-color;
-  font-size: 100px; // makes the width of icon labels equal
+  font-size: 100px;
   position: absolute;
   transform: translateX(2%);
 }

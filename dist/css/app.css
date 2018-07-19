@@ -289,7 +289,6 @@ table.container.solicitacao-aberto-sun {
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px 10px 0 0 !important;
-  /*background-size: cover;*/
   width: 100% !important;
   height: 224px !important;
   margin: 0 !important; }
@@ -301,10 +300,57 @@ table.container.confirmacao-email {
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px 10px 0 0 !important;
-  /*background-size: cover;*/
   width: 100% !important;
   height: 224px !important;
   margin: 0 !important; }
+
+table.container.etapa-analise {
+  position: relative;
+  text-align: right;
+  background-image: url("https://i.imgur.com/HRli7jk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem; }
+
+table.container.etapa-desenvolvimento {
+  position: relative;
+  text-align: right;
+  background-image: url("https://i.imgur.com/2s694Ov.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem; }
+
+table.container.etapa-apvdev {
+  position: relative;
+  text-align: right;
+  background-image: url("https://i.imgur.com/3oDbEZv.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem; }
+
+table.container.etapa-publicacao {
+  position: relative;
+  text-align: right;
+  background-image: url("https://i.imgur.com/vgyet1T.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 86% !important;
+  height: 3.47em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem; }
 
 .conteudo {
   line-height: 2;
@@ -364,13 +410,6 @@ a.atendimento {
   color: #3871E0;
   margin-bottom: 1.5rem !important; }
 
-/*ul li {
-  color: #BB69E4;
-}*/
-/*li {
-  padding-left: 1em;
-  text-indent: -.7em;
-}*/
 /*etapa 1 análise*/
 
 /*etapa 2 desenvolvimento*/
