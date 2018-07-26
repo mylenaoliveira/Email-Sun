@@ -209,7 +209,7 @@ p {
   margin-bottom: 0.2rem; }
 
 .titulo-nome {
-  font-size: 35px;
+  font-size: 30px;
   color: #333333;
   font-weight: bold;
   margin-top: 1.5rem !important;
@@ -297,6 +297,17 @@ table.container.confirmacao-email {
   position: relative;
   text-align: right;
   background-image: url("https://i.imgur.com/AZQ7MZC.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 10px 10px 0 0 !important;
+  width: 100% !important;
+  height: 224px !important;
+  margin: 0 !important; }
+
+table.container.reserva-negociacao {
+  position: relative;
+  text-align: right;
+  background-image: url("https://i.imgur.com/BuIhXmx.png");
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px 10px 0 0 !important;
